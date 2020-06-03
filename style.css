@@ -10,20 +10,104 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 0px 0px 100px 0px;
 
 }
 .topnav {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    padding: 19px 20px 0px 20px;
+    padding: 19px 20px 790px 20px;
 }
+.bottomnav {
+    background-color:rgba(238, 234, 234, 0.918);;
+    overflow: hidden;
+    padding: 0px 20px 0px 20px;
+}
+
 .topnav a:hover {
     text-decoration: underline;
     color: black;
   }
+.SIbutton{
+    color: white;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	padding: 8px;
+	outline: none;
+}
+.SIbutton:hover{
+	cursor: pointer;
+}
+
+
+#india {
+    display: block;
+    color: rgba(0,0,0,.54);
+    text-align: left;
+    
+    margin-bottom: 0px;
+    height: 20px;
+}
+#Privacy{
+    display: block;
+    color: rgba(0,0,0,.54);
+    margin-left: 10px;
+    bottom: 14px;
+    height: 40px;
+
+}
+#Settings{
+    display: block;
+    color: rgba(0,0,0,.54);
+    margin-left: 10px;
+    bottom: 14px;
+    height: 40px;
+
+}
+#Terms{
+    display: block;
+    color: rgba(0,0,0,.54);
+    margin-left: 10px;
+    bottom: 14px;
+    height: 40px;
+}
+#HSW{
+    display: block;
+    color: rgba(0,0,0,.54);
+    margin-right: 10px;
+    bottom: 14px;
+    height: 40px;
+
+}
+#Business{
+    display: block;
+    color: rgba(0,0,0,.54);
+    margin-right: 10px;
+    bottom: 14px;
+    height: 40px;
+
+}
+#Advertising{
+    display: block;
+    color: rgba(0,0,0,.54);
+    margin-right: 10px;
+    bottom: 14px;
+    height: 40px;
+
+}
+#About{
+    display: block;
+    color: rgba(0,0,0,.54);
+    margin-right: 10px;
+    bottom: 14px;
+    height: 40px;
+
+}
 .topnav-right {
     float: right;
   }
+
+
 #searchbox {
     display: flex;
     flex-direction: row;
@@ -49,6 +133,7 @@
     width: 490px;
     height: 34px;
 }
+
 #buttons {
     text-align: center;
     margin: 35px 0px;
@@ -92,7 +177,7 @@
     color: #222;
 }
 
-}
+
 #lookingls {
     margin: 10px 0px 0px 10px;
     height: 25px;
